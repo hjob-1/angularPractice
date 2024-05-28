@@ -1,0 +1,10 @@
+<section id="experience">
+  <h2>Work Experience</h2>
+  <app-card
+    *ngFor="let work of workExperience"
+    [role]="work.role"
+    [description]="work.description"
+    [date]="work.date"
+    [companyName]="work.companyName"
+  ></app-card>
+</section>

@@ -1,0 +1,13 @@
+.progress-bar {
+  height: 5px;
+  background-color: #90ee90;
+}
+.progress-bar-content {
+  height: 100%;
+  background-color: #28a745;
+}
+.skill-type {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.mb-20 {
+  margin-bottom: 20px;
+}
+.p-20 {
+  padding: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+section {
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card {
+  display: flex;
+}
+
+.card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #17793c;
+  flex-basis: 55%;
+  color: #dddddd;
+}
+.card-right {
+  color: #4d4f4f;
+}

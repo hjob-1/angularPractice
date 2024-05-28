@@ -1,0 +1,10 @@
+<section>
+  <h2>Education</h2>
+  <app-card
+    *ngFor="let education of listOfEducations"
+    [role]="education.role"
+    [description]="education.description"
+    [date]="education.date"
+    [companyName]="education.schoolName"
+  ></app-card>
+</section>

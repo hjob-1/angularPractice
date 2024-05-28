@@ -1,0 +1,36 @@
+<section id="contact">
+  <div class="fb-50 contact-us-left">
+    <h1>
+      Lets chat.<br />
+      Tell me About your Project.
+    </h1>
+    <p>Lets create something together</p>
+    <p>mail me at <strong>anthony@gmail.com</strong></p>
+  </div>
+  <div class="fb-50 contact-us-right">
+    <h1>Send Me a Message</h1>
+    <input
+      type="text"
+      placeholder="Full name"
+      [(ngModel)]="contactPageInput.fullName"
+    />
+    <input
+      type="text"
+      placeholder="Email Address"
+      [(ngModel)]="contactPageInput.email"
+    />
+    <input
+      type="text"
+      placeholder="Subject"
+      [(ngModel)]="contactPageInput.subject"
+    />
+    <label for="textarea">Tell us more about your project</label>
+    <textarea
+      id="textarea"
+      cols="20"
+      rows="5"
+      [(ngModel)]="contactPageInput.message"
+    ></textarea>
+    <button (click)="send()">Send Message</button>
+  </div>
+</section>
